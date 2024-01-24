@@ -3500,7 +3500,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 5em 2em 4.25em 2em ;
+				padding: 22em 2em 20.25em 2em ;
 				margin-bottom: -2.5em;
 			}
 
@@ -4282,6 +4282,10 @@ section.wrapper.nobg{
 
 
 @media (max-width: 480px){
+
+	section#banner{
+		padding-bottom : 5000px;
+	}
 
 	h1{
 		font-size: 25px !important;
