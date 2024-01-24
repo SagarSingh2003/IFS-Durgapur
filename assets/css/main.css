@@ -4283,9 +4283,7 @@ section.wrapper.nobg{
 
 @media (max-width: 480px){
 
-	section#banner{
-		padding-bottom : 5000px;
-	}
+	
 
 	h1{
 		font-size: 25px !important;
