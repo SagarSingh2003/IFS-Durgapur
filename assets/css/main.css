@@ -2418,6 +2418,14 @@ input, select, textarea {
 		position: relative;
 	}
 
+	.image-media{
+		display: none;
+	}
+
+	.image-media-2{
+		display: none;
+	}
+
 		.image img {
 			border-radius: 5px;
 			display: block;
@@ -3087,7 +3095,7 @@ input, select, textarea {
 		z-index: 10000;
 	}
 
-		#header h1 {
+		#header h2 {
 			-moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
 			-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
@@ -3099,7 +3107,7 @@ input, select, textarea {
 			visibility: visible;
 		}
 
-			#header h1 a {
+			#header h2 a {
 				border: 0;
 			}
 
@@ -4156,7 +4164,7 @@ input, select, textarea {
 	}
 
 
-/* ======================================== my Styles */
+/* ======================================== my Styles ================================================= */
 
 section.wrapper.spotlight.nobg{
 	background-image: none;
@@ -4214,4 +4222,94 @@ section.wrapper.nobg{
 #three > .inner > .image >img {
 	height: 800px;
 	border-radius : 2px !important;
+}
+
+#findus{
+	width: 100%;
+}
+
+@media (max-width : 774px){
+
+	h1{
+		font-size : 35px !important;
+	}
+
+	 .image {
+		display: none !important;
+	}
+
+	a.image-media{
+		height: 500px;
+		display: block;
+		margin-left : 20px;
+		border-bottom: none;
+
+		text-align: left;
+		display: flex;
+		flex-direction : column;
+		justify-content : center;
+	}
+	.image-media img{
+		height: 300px !important;
+		width: 95%;
+		padding-bottom :10px;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+	}
+
+	.image-media-2{
+		height: 800px;
+		display: block;
+		margin-left : 20px;
+		border-bottom: none;
+		margin-right: 20px;
+		text-align: left;
+		display: flex;
+		flex-direction : column;
+		justify-content : center;
+		width: 200px;
+
+	}
+
+	.image-media-2 img{
+
+		height: 200px !important;
+		width: 100%;
+		padding-bottom :10px;
+		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+	}
+}	
+
+
+
+@media (max-width: 480px){
+
+	h1{
+		font-size: 25px !important;
+	}
+
+	.image-media-2{
+		height: 100%;
+		width: 100%;
+		margin-left: 0;
+
+		display : flex;
+		flex-direction : row;
+		justify-content: center;
+	}
+
+	.image-media-2 img{
+		width: 80%;
+		border-bottom : none;
+		margin-bottom : 60px;
+		margin-top: 30px;
+		padding: 10px;
+		border-bottom: dashed 1px rgba(255, 255, 255, 0.35);
+	}
+
+	.image-media img{
+		border-radius: 2px;
+		padding-bottom: 0;
+		padding : 10px;
+		border-bottom: dashed 1px rgba(255, 255, 255, 0.35);
+	}
 }
