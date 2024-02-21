@@ -1,2 +1,2 @@
 # IFS-Durgapur
-This website if for a Fire and Safety Institute
+This website is for a Fire and Safety Institute
